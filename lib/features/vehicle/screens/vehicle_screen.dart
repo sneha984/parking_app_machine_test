@@ -25,7 +25,6 @@ class _VehicleListScreenState extends ConsumerState<VehicleListScreen> {
   void initState() {
     super.initState();
 
-    // Add listener for pagination
     _scrollController.addListener(() {
       if (_scrollController.position.pixels >=
           _scrollController.position.maxScrollExtent - 200) {
